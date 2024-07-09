@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamburgueria Sabor na Chapa</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/desk.css">
+</head>
+<body>
+  <header>
+    <div class="header-img">
+      <img src="assets/img/hamb-1.png" alt="Hamburguer Smash" />
+    </div>
+    <div class="header-content">
+      <h1>Hamburgueria Sabor na Chapa</h1>
+      <p>Rua Tadinho da Silva, 12, Coitadolância - MA</p>
+      <span id="funcio-hora">Seg a Dom - 18:00 às 22:00</span>
+    </div>
+  </header>
+
+  <div id="menu">
+    <h2>Conheça nosso menu</h2>
+    <main>
+      <div class="card-item">
+        <img src="assets/img/hamb-1.png" alt="Cheese Burger Duplo" />
+
+        <div class="item-description">
+          <div class="item-texts-info">
+            <h3 class="item-name">
+              Cheese Burger Duplo
+            </h3>
+            <p class="item-info">
+              Pão levinho de fermentação natural da Trigou, burger 160g, queijo prato e maionese da casa
+            </p>
+          </div>
+
+          <div class="item-add-cart">
+            <div class="item-price">
+              <span id="item-elemetn-price">R$ 35.00</span>
+            </div>
+            <button id="add-item-to-cart" class="add-item-to-cart" data-name="Cheese Burger Duplo" data-price="35">
+              <i class="ph-fill ph-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item">
+        <img src="assets/img/hamb-2.png" alt="Cheese Salad" />
+
+        <div class="item-description">
+          <div class="item-texts-info">
+            <h3 class="item-name">
+              Cheese Salad
+            </h3>
+            <p class="item-info">
+              Pão levinho de fermentação natural da Trigou, burger 160g, queijo prato e maionese da casa
+            </p>
+          </div>
+
+          <div class="item-add-cart">
+            <div class="item-price">
+              <span id="item-elemetn-price">R$ 30.00</span>
+            </div>
+            <button id="add-item-to-cart" class="add-item-to-cart" data-name="Cheese Salad" data-price="30">
+              <i class="ph-fill ph-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item">
+        <img src="assets/img/hamb-3.png" alt="Podrão 1" />
+
+        <div class="item-description">
+          <div class="item-texts-info">
+            <h3 class="item-name">
+              Podrão 1
+            </h3>
+            <p class="item-info">
+              Pão levinho de fermentação natural da Trigou, burger 160g, queijo prato e maionese da casa
+            </p>
+          </div>
+
+          <div class="item-add-cart">
+            <div class="item-price">
+              <span id="item-elemetn-price">R$ 35.00</span>
+            </div>
+            <button id="add-item-to-cart" class="add-item-to-cart" data-name="Podrão 1" data-price="35">
+              <i class="ph-fill ph-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item">
+        <img src="assets/img/hamb-4.png" alt="Podrão 2" />
+
+        <div class="item-description">
+          <div class="item-texts-info">
+            <h3 class="item-name">
+              Podrão 2
+            </h3>
+            <p class="item-info">
+              Pão levinho de fermentação natural da Trigou, burger 160g, queijo prato e maionese da casa
+            </p>
+          </div>
+
+          <div class="item-add-cart">
+            <div class="item-price">
+              <span id="item-elemetn-price">R$ 35.00</span>
+            </div>
+            <button id="add-item-to-cart" class="add-item-to-cart" data-name="Podrão 2" data-price="35">
+              <i class="ph-fill ph-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item">
+        <img src="assets/img/hamb-1.png" alt="Cheese Burger Duplo" />
+
+        <div class="item-description">
+          <div class="item-texts-info">
+            <h3 class="item-name">
+              Cheese Burger Duplo
+            </h3>
+            <p class="item-info">
+              Pão levinho de fermentação natural da Trigou, burger 160g, queijo prato e maionese da casa
+            </p>
+          </div>
+
+          <div class="item-add-cart">
+            <div class="item-price">
+              <span id="item-elemetn-price">R$ 35.00</span>
+            </div>
+            <button id="add-item-to-cart" class="add-item-to-cart" data-name="Cheese Burger Duplo" data-price="35">
+              <i class="ph-fill ph-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item">
+        <img src="assets/img/hamb-1.png" alt="Cheese Burger Duplo" />
+
+        <div class="item-description">
+          <div class="item-texts-info">
+            <h3 class="item-name">
+              Cheese Burger Duplo
+            </h3>
+            <p class="item-info">
+              Pão levinho de fermentação natural da Trigou, burger 160g, queijo prato e maionese da casa
+            </p>
+          </div>
+
+          <div class="item-add-cart">
+            <div class="item-price">
+              <span id="item-elemetn-price">R$ 35.00</span>
+            </div>
+            <button id="add-item-to-cart" class="add-item-to-cart" data-name="Cheese Burger Duplo" data-price="35">
+              <i class="ph-fill ph-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item">
+        <img src="assets/img/hamb-1.png" alt="Cheese Burger Duplo" />
+
+        <div class="item-description">
+          <div class="item-texts-info">
+            <h3 class="item-name">
+              Cheese Burger Duplo
+            </h3>
+            <p class="item-info">
+              Pão levinho de fermentação natural da Trigou, burger 160g, queijo prato e maionese da casa
+            </p>
+          </div>
+
+          <div class="item-add-cart">
+            <div class="item-price">
+              <span id="item-elemetn-price">R$ 35.00</span>
+            </div>
+            <button id="add-item-to-cart" class="add-item-to-cart" data-name="Cheese Burger Duplo" data-price="35">
+              <i class="ph-fill ph-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item">
+        <img src="assets/img/hamb-1.png" alt="Cheese Burger Duplo" />
+
+        <div class="item-description">
+          <div class="item-texts-info">
+            <h3 class="item-name">
+              Cheese Burger Duplo
+            </h3>
+            <p class="item-info">
+              Pão levinho de fermentação natural da Trigou, burger 160g, queijo prato e maionese da casa
+            </p>
+          </div>
+
+          <div class="item-add-cart">
+            <div class="item-price">
+              <span id="item-elemetn-price">R$ 35.00</span>
+            </div>
+            <button id="add-item-to-cart" class="add-item-to-cart" data-name="Cheese Burger Duplo" data-price="35">
+              <i class="ph-fill ph-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item">
+        <img src="assets/img/hamb-1.png" alt="Cheese Burger Duplo" />
+
+        <div class="item-description">
+          <div class="item-texts-info">
+            <h3 class="item-name">
+              Cheese Burger Duplo
+            </h3>
+            <p class="item-info">
+              Pão levinho de fermentação natural da Trigou, burger 160g, queijo prato e maionese da casa
+            </p>
+          </div>
+
+          <div class="item-add-cart">
+            <div class="item-price">
+              <span id="item-elemetn-price">R$ 35.00</span>
+            </div>
+            <button id="add-item-to-cart" class="add-item-to-cart" data-name="Cheese Burger Duplo" data-price="35">
+              <i class="ph-fill ph-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item">
+        <img src="assets/img/hamb-1.png" alt="Cheese Burger Duplo" />
+
+        <div class="item-description">
+          <div class="item-texts-info">
+            <h3 class="item-name">
+              Cheese Burger Duplo
+            </h3>
+            <p class="item-info">
+              Pão levinho de fermentação natural da Trigou, burger 160g, queijo prato e maionese da casa
+            </p>
+          </div>
+
+          <div class="item-add-cart">
+            <div class="item-price">
+              <span id="item-elemetn-price">R$ 35.00</span>
+            </div>
+            <button id="add-item-to-cart" class="add-item-to-cart" data-name="Cheese Burger Duplo" data-price="35">
+              <i class="ph-fill ph-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item">
+        <img src="assets/img/hamb-1.png" alt="Cheese Burger Duplo" />
+
+        <div class="item-description">
+          <div class="item-texts-info">
+            <h3 class="item-name">
+              Cheese Burger Duplo
+            </h3>
+            <p class="item-info">
+              Pão levinho de fermentação natural da Trigou, burger 160g, queijo prato e maionese da casa
+            </p>
+          </div>
+
+          <div class="item-add-cart">
+            <div class="item-price">
+              <span id="item-elemetn-price">R$ 35.00</span>
+            </div>
+            <button id="add-item-to-cart" class="add-item-to-cart" data-name="Cheese Burger Duplo" data-price="35">
+              <i class="ph-fill ph-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item">
+        <img src="assets/img/hamb-1.png" alt="Cheese Burger Duplo" />
+
+        <div class="item-description">
+          <div class="item-texts-info">
+            <h3 class="item-name">
+              Cheese Burger Duplo
+            </h3>
+            <p class="item-info">
+              Pão levinho de fermentação natural da Trigou, burger 160g, queijo prato e maionese da casa
+            </p>
+          </div>
+
+          <div class="item-add-cart">
+            <div class="item-price">
+              <span id="item-elemetn-price">R$ 35.00</span>
+            </div>
+            <button id="add-item-to-cart" class="add-item-to-cart" data-name="Cheese Burger Duplo" data-price="35">
+              <i class="ph-fill ph-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item">
+        <img src="assets/img/hamb-1.png" alt="Cheese Burger Duplo" />
+
+        <div class="item-description">
+          <div class="item-texts-info">
+            <h3 class="item-name">
+              Cheese Burger Duplo
+            </h3>
+            <p class="item-info">
+              Pão levinho de fermentação natural da Trigou, burger 160g, queijo prato e maionese da casa
+            </p>
+          </div>
+
+          <div class="item-add-cart">
+            <div class="item-price">
+              <span id="item-elemetn-price">R$ 35.00</span>
+            </div>
+            <button id="add-item-to-cart" class="add-item-to-cart" data-name="Cheese Burger Duplo" data-price="35">
+              <i class="ph-fill ph-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item">
+        <img src="assets/img/hamb-1.png" alt="Cheese Burger Duplo" />
+
+        <div class="item-description">
+          <div class="item-texts-info">
+            <h3 class="item-name">
+              Cheese Burger Duplo
+            </h3>
+            <p class="item-info">
+              Pão levinho de fermentação natural da Trigou, burger 160g, queijo prato e maionese da casa
+            </p>
+          </div>
+
+          <div class="item-add-cart">
+            <div class="item-price">
+              <span id="item-elemetn-price">R$ 35.00</span>
+            </div>
+            <button id="add-item-to-cart" class="add-item-to-cart" data-name="Cheese Burger Duplo" data-price="35">
+              <i class="ph-fill ph-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="bebidas-tt">
+      <h3>Bebidas</h3>
+    </div>
+
+    <section>
+      <div class="card-item">
+        <img src="assets/img/refri-1.png" alt="Coca Cola Lata" />
+
+        <div class="item-description">
+          <h3 class="item-name">
+            Coca Cola Lata
+          </h3>
+
+          <div class="item-add-cart">
+            <div class="item-price">
+              <span id="item-elemetn-price">R$ 6.00</span>
+            </div>
+            <button id="add-item-to-cart" class="add-item-to-cart" data-name="Coca Cola Lata" data-price="6">
+              <i class="ph-fill ph-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-item">
+        <img src="assets/img/refri-1.png" alt="Coca Cola Lata" />
+
+        <div class="item-description">
+          <h3 class="item-name">
+            Coca Cola Lata
+          </h3>
+
+          <div class="item-add-cart">
+            <div class="item-price">
+              <span id="item-elemetn-price">R$ 6.00</span>
+            </div>
+            <button id="add-item-to-cart" class="add-item-to-cart" data-name="Coca Cola Lata" data-price="6">
+              <i class="ph-fill ph-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <button id="show-cart-btn">
+      (<span class="cart-quantity">0</span>)
+      <p>Veja seu carrinho </p>
+      <i class="ph-fill ph-shopping-cart"></i>
+    </button>
+  </footer>
+
+  <div class="modal">
+    <div class="modal-wrapper">
+      <div class="modal-container">
+        <h3>Seu carrinho</h3>
+        <div class="modal-content">
+          <div class="modal-item-info">
+            <!-- <div class="card-item-modal">
+              <div class="moda-item-info-container">
+                <h4>Cheese Burguer</h4>
+                <p>(Quantidade: <span>1</span>)</p>
+                <span>R$ 35.00</span>
+              </div>
+              <button class="remove-item-from-cart">Remover</button>
+            </div> -->
+          </div>
+          <h3 class="cart-total">Total: R$ 0.00</h3>
+          <h3>Local de Entrega</h3>
+          <input type="text" name="addressInput" id="addressInput" placeholder="Digite seu endereço completo..." required />
+          <p class="setAddresError">Por favor, digite seu endereço completo.</p>
+          <div class="finalizar-pedido-wrapper">
+            <button class="close-modal-btn">Fechar</button>
+            <button class="enviar-pedido">Finalizar pedido</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script type="module" src="index.js"></script>
+</body>
+</html>

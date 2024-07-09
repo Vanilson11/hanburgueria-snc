@@ -1,0 +1,13 @@
+export const menu = document.querySelector("#menu");
+export const cartBtn = document.querySelector("#show-cart-btn");
+export const modal = document.querySelector(".modal");
+export const closeModalBtn = document.querySelector(".close-modal-btn");
+export const modalItemInfo = document.querySelector(".modal-item-info");
+export const cartQuantity = document.querySelector(".cart-quantity");
+export const cartTotal = document.querySelector(".cart-total");
+export const modalContainer = document.querySelector(".modal-item-info");
+export const modalQuantity = document.querySelector(".modal-quantity");
+export const elementHorario = document.querySelector("#funcio-hora");
+export const sendPedido = document.querySelector(".enviar-pedido");
+export const addressInput = document.querySelector("#addressInput");
+export const setAddresError = document.querySelector(".setAddresError");

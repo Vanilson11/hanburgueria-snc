@@ -1,0 +1,25 @@
+@media (min-width: 768px){
+  header .header-content h1{
+    font-size: 3.8rem;
+  }
+
+  #menu h2{
+    font-size: 3.4rem;
+  }
+
+  #menu main,
+  #menu section{
+    grid-template-columns: 1fr 1fr;
+    gap: 1.8rem;
+
+    padding: 1rem 9.5rem;
+  }
+
+  #menu .bebidas-tt{
+    padding: 1rem 9.5rem;
+  }
+
+  .modal .modal-wrapper{
+    min-width: 66rem;
+  }
+}
